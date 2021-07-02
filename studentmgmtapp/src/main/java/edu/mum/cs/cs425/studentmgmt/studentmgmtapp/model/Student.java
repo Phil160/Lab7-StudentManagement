@@ -19,14 +19,14 @@ public class Student {
     @NotEmpty(message = "student number is required cannot be empty")
     @NotBlank(message = "student number is required cannot be blank")
     private String studentNumber;
-    @NotNull(message = "student number is required cannot be null")
-    @NotEmpty(message = "student number is required cannot be empty")
-    @NotBlank(message = "student number is required cannot be blank")
+    @NotNull(message = "student first name is required cannot be null")
+    @NotEmpty(message = "student first name is required cannot be empty")
+    @NotBlank(message = "student firs tname is required cannot be blank")
     private String firstName;
     private String middleName;
-    @NotNull(message = "student number is required cannot be null")
-    @NotEmpty(message = "student number is required cannot be empty")
-    @NotBlank(message = "student number is required cannot be blank")
+    @NotNull(message = "student last name is required cannot be null")
+    @NotEmpty(message = "student last name is required cannot be empty")
+    @NotBlank(message = "student last name is required cannot be blank")
     private String lastName;
     private Double cgpa;
     private LocalDate dateOfEnrollment;
